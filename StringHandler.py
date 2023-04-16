@@ -1,5 +1,4 @@
 class StringHandler:
-
     def camel(self, st):
         tmp = None
         res = st[0]
@@ -11,6 +10,3 @@ class StringHandler:
                     res += value.lower()
             tmp = res[-1]
         print(res)
-
-str = StringHandler()
-str.camel('Утром!! было! солнечно!!!!')
